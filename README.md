@@ -1,4 +1,4 @@
-# sublime-fav-settings
+# Favorite Setup for Sublime 
 Favorite packages, shortcuts and more in Sublime Text 3 editor.
 
 # Shortcuts
@@ -13,9 +13,10 @@ Favorite packages, shortcuts and more in Sublime Text 3 editor.
 - PrettyJSON
 - Trailing Spaces
 - HTML/CSS/JS Beautify
--- needs nodeJS
+  * needs nodeJS
 - Sublime Linter
--- needs jshint
+  * needs jshint
+- EditorConfig
 
 # Excluding Files from Project
 
