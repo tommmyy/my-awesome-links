@@ -1,0 +1,69 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+    "babel",
+    "react"
+  ],
+  "ecmaFeatures": {
+    "blockBindings": true,
+    "forOf": true,
+    "jsx": true,
+    "classes": true,
+    "modules": true,
+    "destructuring ": true
+  },
+  "rules": {
+    "strict": 0,
+    "id-length": 0,
+    "one-var": 0,
+    "func-names": 0,
+    "no-console": 0,
+    "no-undef": 2,
+    "indent": [
+      2,
+      "tab"
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "no-extra-semi": 1,
+    "quotes": [
+      2,
+      "single"
+    ],
+    "no-dupe-keys": 1,
+    "eqeqeq": 1,
+    "jsx-quotes": [
+      1,
+      "prefer-single"
+    ],
+    "comma-dangle": [
+      0
+    ],
+    "babel/generator-star-spacing": 1,
+    "babel/new-cap": 1,
+    "babel/object-curly-spacing": 1,
+    "babel/object-shorthand": 1,
+    "babel/arrow-parens": 1,
+    "react/jsx-no-duplicate-props": 1,
+    "react/jsx-no-undef": 1,
+    "react/prefer-es6-class": 1,
+    "react/wrap-multilines": 1,
+    "react/sort-comp": [2, {
+      "order": [
+        "lifecycle",
+        "/^on.+$/",
+        "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
+        "everything-else",
+        "/^render.+$/",
+        "render"
+      ]
+    }],
+  }
+}
